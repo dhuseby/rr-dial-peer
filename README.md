@@ -19,7 +19,9 @@ local peer id: 12D3KooWP3GiWRRXPwtwogmSz8u9jpqgcnZELa3EQF47p1usB9jU
 Local peer is listening on /ip4/127.0.0.1/udp/58582/quic-v1
 ```
 
-Copy and the multiaddr string on the second line (e.g. "/ip4/127.0.0.1/udp/58582/quic-v1").
+Note the multiaddr string on the second line (e.g.
+`/ip4/127.0.0.1/udp/58582/quic-v1`) this is the argument you will pass to the
+dialing peer so that it can dial the listening peer.
 
 ## Run the Dialing Peer
 
