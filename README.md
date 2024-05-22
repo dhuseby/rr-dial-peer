@@ -1,7 +1,7 @@
 # rr-dial-peer
 
-This is the same as the [rr-dial
-example](https://github.com/dhuseby/rr-dial.git) except that rather than use
+This is the same as the [rr-peer
+example](https://github.com/dhuseby/rr-peer.git) except that rather than use
 mDNS to discover other peers, it directly dials them.
 
 ## Run the Listening Peer
